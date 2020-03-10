@@ -1,0 +1,7 @@
+<h1>タスク登録</h1>
+
+<%= render 'form', task: @task %>
+
+<td><%= link_to '変更', edit_task_path(task) %></td>
+
+<%= link_to '詳細に戻る', tasks_path %>
